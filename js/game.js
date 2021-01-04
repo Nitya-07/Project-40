@@ -94,7 +94,7 @@ class Game{
                  
     if (player.index != null) {
         //fill code here, to destroy the objects.
-        fruitGroup.destroy();
+        fruitGroup.destroyEach();
         }
 
     drawSprites();
